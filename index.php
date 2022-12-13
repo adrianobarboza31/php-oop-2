@@ -13,7 +13,7 @@ class prodotti{
 }
 
 
-
+$prodotti = [];
 $cane = new categoria('cani');
 $gatto=new categoria('gatti');
 $torta = new cibo('dolce', '1pezzo','torta','12euro');
@@ -24,4 +24,14 @@ echo "<br>";
 var_dump($giochi);
 echo "<br>";
 var_dump($cucce);
+echo "<br>";
+array_push($prodotti,$torta, $giochi, $cucce);
 ?>
+<div>
+    <?php
+    foreach($prodotti as $prodotto){
+        echo $prodotto->nome;
+        echo $prodotto->prezzo;
+    }
+    ?>
+</div>

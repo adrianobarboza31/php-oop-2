@@ -1,5 +1,5 @@
 <?php
-class giochi extends prodotti{
+class Giochi extends prodotti{
     
     public $materiale;
     public $genere;

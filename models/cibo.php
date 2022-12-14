@@ -1,5 +1,5 @@
 <?php
-class cibo extends prodotti{
+class Cibo extends prodotti{
     public $gusto;
     public $quantità;
     public function __construct($_gusto,$_quantità,$_nome,$_prezzo){

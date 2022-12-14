@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ab-card{
+    background-color: yellow;
+  
+   width: calc((100% - 60px) / 3);
+   margin: 10px 10px;
+   font-size: 20px;
+
+}
+.d-flex{
+    display: flex;
+}
+.centro{
+    text-align: center;
+    color: red;
+    font-size: 25px;
+}
+span{
+    font-weight: 900;
+}
+.container{
+    width: 900px;
+    margin: auto;
+}
+.message{
+    background-color: red;
+    margin-left: 10px;
+    width: calc((100% - 60px) / 3);
+    margin: auto;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px 3px;
+    border-radius: 20px;
+}

@@ -1,5 +1,5 @@
 <?php
-class cucce extends prodotti{
+class Cucce extends prodotti{
     public $colore;
     public $taglia;
     public function __construct($_colore,$_taglia,$_nome,$_prezzo){
